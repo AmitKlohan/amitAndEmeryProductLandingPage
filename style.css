@@ -1,99 +1,138 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
-html{
+html {
     scroll-behavior: smooth;
-    }
+}
 
-#header{
+#header {
     top: 0px;
     position: sticky;
 }
 
-#nav-bar{
+#nav-bar {
     display: flex;
     align-items: center;
 }
 
-#nav-bar ul{
+#nav-bar ul {
     display: flex;
 }
 
-#nav-bar ul li{
+#nav-bar ul li {
     list-style: none;
     font-size: 1.3rem;
 }
 
-#nav-bar::before{
-content: "";
-background-color: black;
-position:absolute;
-top: 0px;
-left: 0px;
-width: 100%;
-height: 100%;
-z-index: -1;
-opacity: 0.7;
+#nav-bar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
 }
 
-#nav-bar #logo img{
+#nav-bar #logo img {
     height: 60px;
     padding: 3px 6px;
 }
-#nav-bar ul li a{
+
+#nav-bar ul li a {
     text-decoration: none;
-    color:white;
+    color: white;
     display: block;
     padding: 3px 22px;
     border-radius: 20px;
+}
+
+#nav-bar ul li a:hover {
+    color: black;
+    background-color: white;
+}
+
+#nav-bar #logo {
+    margin: 0px 34px;
+}
+
+#nav-bar #logo img {
+    height: 59px;
+    padding: 3px 6px;
+
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    padding: 2px 2px;
+}
+
+#home::before {
+    content: "";
+    top: 0px;
+    left: 0px;
+    height: 320px;
+    width: 100%;
+    background: url(../bg1.jpeg) no-repeat center center/cover;
+    z-index: -1;
+    opacity: .4;
+    position: absolute;
+}
+
+#home h1 {
+    color: white;
+    font-family: 'Bree Serif', serif;
+}
+
+#home p {
+    font-family: 'Bree Serif', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+#services {
+    display: flex;
+    margin: 14px;
+}
+
+#services .box {
+    padding: 14px;
+    margin: 2px 35px;
+    border-radius: 28px;
+    background: wheat;
+    margin-bottom: 20px;
+}
+
+#services .box img{ 
+    height: 100px;
+    margin: auto;
+    display: block;
     }
-
-    #nav-bar ul li a:hover{
-        color: black;
-        background-color: white;
+    
+    #services .box p{
+    font-family: 'Bree Serif', serif;
+    } 
+   
+    #client-section{
+        position: relative;
+        margin-bottom: 10px;
         }
         
-        #nav-bar #logo{
-        margin: 0px 34px;
+        #client-section::before{
+        content: "";
+        position: absolute;
+        background: url('../bg22.jpeg') no-repeat center center/cover;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.3;
         }
-        
-        #nav-bar #logo img{
-        height: 59px;
-        padding: 3px 6px;
-        
-        }
-
-        #home{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 250px;
-            padding: 2px 2px;
-            }
-            
-            #home::before{
-            content: "";
-            top: 0px;
-            left: 0px;
-            height: 320px;
-            width: 100%;
-            background: url(../bg1.jpeg) no-repeat center center/cover;
-            z-index: -1;
-            opacity: .4;
-            position:absolute;
-            }
-            
-            #home h1{
-            color:white;
-            font-family: 'Bree Serif', serif;
-            }
-
-            #home p{
-                font-family: 'Bree Serif', serif;
-                font-size: 1.5rem;
-                text-align: center;
-                color: white;
-                }
