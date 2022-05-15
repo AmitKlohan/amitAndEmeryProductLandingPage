@@ -15,6 +15,8 @@ html {
 #nav-bar {
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0px;
 }
 
 #nav-bar ul {
