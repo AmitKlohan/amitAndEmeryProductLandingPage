@@ -187,3 +187,15 @@ html {
                         font-family: 'Bree Serif', serif;
                         
                         }
+
+                        #contact .btn{
+                            width: 100%;
+                            padding: 6px 15px;
+                            border: 2px solid white;
+                            background-color: brown;
+                            color: white;
+                            margin: 12px;
+                            font-size: 1.2rem;
+                            border-radius: 10px;
+                            cursor:pointer;
+                            }
