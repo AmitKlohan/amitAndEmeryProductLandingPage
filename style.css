@@ -177,3 +177,13 @@ html {
                     border-radius: 9px;
                     font-size: 1.1rem;
                     } 
+
+                    #contact-box form{
+                        width: 40%;
+                        }
+                        
+                        #contact-box label{
+                        font-size: 1.3rem;
+                        font-family: 'Bree Serif', serif;
+                        
+                        }
